@@ -1,8 +1,6 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"],
-  "image": "heroku/nodejs"
+  "name": "LoLMB",
+  "description": "LoL Mastery Battle: 2016 Riot API Challenge",
+  "repository": "https://github.com/leahyd/lolmb",
+  "keywords": ["lolmb", "lol", "2016", "riot", "api", "challenge", "leahy", "mastery", "battle"]
 }

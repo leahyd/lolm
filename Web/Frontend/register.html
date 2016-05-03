@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+  
+  
+    <meta charset="utf-8">
+	
+    <title>CheckIn</title>
+	
+	<link rel='shortcut icon' href='Images\icon-checkin.png' type='image\png'>
+	
+    <link type='text\css' rel="stylesheet" href="StyleSheets\global.css">
+	
+	<!--Open Sans font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	
+	<!--Open Sans Condensed font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+	
+	<!--Montserrat font -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	
+    <script src="Scripts\jquery-2.1.1.js"></script>
+	
+	<script src="Scripts\register.js"></script>
+	
+	
+  </head>
+  
+  
+  <body>
+    <!-- page content -->
+	
+	<section class="header">
+	
+		<div class="height-push"></div>
+		
+		<h1><a href="index.html">CheckIn</a></h1>
+		<p>the most convenient way to check-in</p>
+		
+	
+	</section>
+	
+	<section class="links">
+	
+		<div class="height-push-double"></div>
+	
+		<div class="primary-wrapper">
+			
+			<div class="primary-links">
+				<a class="primary" href="index.html">Home</a><a class="primary" href="about.html">About</a><a class="primary" href="history.html">History</a>
+			</div>
+			
+		</div>
+		
+		<div class="height-push"></div>
+	
+	</section>
+	
+	<section class="content">
+	
+			<section class="content sidebar">
+				
+				<p><a href="index.html"><img src="Images/icon-checkin-fade.png" alt="" width="120" height="120" border="0" /></a></p>
+				<p><a href="login.html">Login</a></p>
+				<p><a href="register.html">Register</a></p>
+				
+			</section>
+	
+			<section class="content main">
+			
+				<h2>Register with CheckIn</h2>
+				<p>This registry should be completed and filled out by an official representative of your company/enterprise. This is important because this is the person we will contact when we need to talk to you guys!</p>
+				<form id="register" method="post">  
+				<table>
+					<tbody>
+						<th style="text-align: left;">Individual Contact Info</th>
+						<tr>
+							<td>
+								<label for="fname">First Name</label>
+							</td>
+							<td>
+								<input id="fname" required autofocus>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="lname">Last Name</label>
+							</td>
+							<td>
+								<input id="lname" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="position">Position</label>
+							</td>
+							<td>
+								<input id="position" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="email">Email</label>
+							</td>
+							<td>
+								<input type="email" id="email" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+						</tr>
+						<th style="text-align: left;">Vendor Contact Info</th>
+						<tr>
+							<td>
+								<label for="oname">Organization Name</label>
+							</td>
+							<td>
+								<input id="oname" placeholder="CheckIn" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="city">City</label>
+							</td>
+							<td>
+								<input id="city" placeholder="Columbus" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="state">State</label>
+							</td>
+							<td>
+								<select id="state" required>
+									<option value="none">-- Select --</option>
+									<option value="AK">AK</option>
+									<option value="AL">AL</option>
+									<option value="AR">AR</option>
+									<option value="AZ">AZ</option>
+									<option value="CA">CA</option>
+									<option value="CO">CO</option>
+									<option value="CT">CT</option>
+									<option value="DC">DC</option>
+									<option value="DE">DE</option>
+									<option value="FL">FL</option>
+									<option value="GA">GA</option>
+									<option value="HI">HI</option>
+									<option value="IA">IA</option>
+									<option value="ID">ID</option>
+									<option value="IL">IL</option>
+									<option value="IN">IN</option>
+									<option value="KS">KS</option>
+									<option value="KY">KY</option>
+									<option value="LA">LA</option>
+									<option value="MA">MA</option>
+									<option value="MD">MD</option>
+									<option value="ME">ME</option>
+									<option value="MI">MI</option>
+									<option value="MN">MN</option>
+									<option value="MO">MO</option>
+									<option value="MS">MS</option>
+									<option value="MT">MT</option>
+									<option value="NC">NC</option>
+									<option value="ND">ND</option>
+									<option value="NE">NE</option>
+									<option value="NH">NH</option>
+									<option value="NJ">NJ</option>
+									<option value="NM">NM</option>
+									<option value="NV">NV</option>
+									<option value="NY">NY</option>
+									<option value="OH">OH</option>
+									<option value="OK">OK</option>
+									<option value="OR">OR</option>
+									<option value="PA">PA</option>
+									<option value="RI">RI</option>
+									<option value="SC">SC</option>
+									<option value="SD">SD</option>
+									<option value="TN">TN</option>
+									<option value="TX">TX</option>
+									<option value="UT">UT</option>
+									<option value="VA">VA</option>
+									<option value="VT">VT</option>
+									<option value="WA">WA</option>
+									<option value="WI">WI</option>
+									<option value="WV">WV</option>
+									<option value="WY">WY</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="city">Zip Code</label>
+							</td>
+							<td>
+								<input id="zip" type="number" placeholder="43210" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+						</tr>
+						<th style="text-align: left;">Estimote Info</th>
+						<tr>
+							<td>
+								<label for="majorID">Major ID</label>
+							</td>
+							<td>
+								<input id="majorID" type="number" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="minorID">Minor ID</label>
+							</td>
+							<td>
+								<input id="minorID" type="number" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+						</tr>
+						<th style="text-align: left;">CheckIn Info</th>
+						<tr>
+							<td>
+								<label for="cname">CheckIn Display Name</label>
+							</td>
+							<td>
+								<input id="cname" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="username">Login Username</label>
+							</td>
+							<td>
+								<input id="username" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="password">Login Password</label>
+							</td>
+							<td>
+								<input type="password" id="password" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="description">Description</label>
+							</td>
+							<td>
+								<textarea id="description" rows="3" cols="60" placeholder="Please enter a brief description of your organization."></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="message">Message</label>
+							</td>
+							<td>
+								<textarea id="message" rows="3" cols="60" placeholder="Please enter a brief message to your clients!"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+							<td>
+								<div style="visibility: hidden;">Empty Row</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="submit" value="Submit">
+							</td>
+						</tr>
+					</tbody>
+				</table>  
+			</form>
+				
+			</section>
+			
+	</section>
+	
+	<section class="footer">
+	
+		<div class="height-push"></div>
+	
+		<p><a class="footer image" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type"><strong>CheckIn</strong></span> is licensed under a <a class="footer" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+		<p>contact us: help@time2checkin.com</p>
+		
+		<div class="height-push"></div>
+		
+	</section>
+	
+  </body>
+  
+  
+</html>
