@@ -13,7 +13,7 @@ body {
 	background: linear-gradient(white 20%, #CCFFFF);
 	background-attachment: fixed;
 	
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	color: #666666;
 }
 
@@ -54,7 +54,7 @@ section.content.sidebar {
 	float: left;
 	
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Indie Flower', sans-serif;
 }
 
 section.content.sidebar > p {
@@ -90,7 +90,7 @@ section.footer {
 /*--------------------------------------- Element Styles ---------------------------------------*/
 	
 h1 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Indie Flower', sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 5px;
 	font-size: 300%;
@@ -143,7 +143,7 @@ section.content.sidebar a:hover {
 }
 
 a.primary {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Indie Flower', sans-serif;
 	letter-spacing: 2px;
 	color: white;
 	text-decoration: none;
