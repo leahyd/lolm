@@ -75,9 +75,8 @@ section.footer {
 	min-height: 10%;
 	clear: both;
 	
-	background-color: #000000;
+	background-color: #202020;
 	
-	color: white;
 	text-align: center;
 }
 
@@ -121,7 +120,7 @@ p {
 
 section.header > p {
 	font-family: 'Shadows Into Light', curive, sans-serif;
-	font-size: 140%;0x00000000#971200
+	font-size: 140%;
 }
 
 ol {
@@ -134,15 +133,14 @@ a {
 }
 
 section.content.main a {
-	color: #FF3300;
+	color: #971200;
 	text-decoration: none;
 }
 
 section.content.main a:hover {
 	transition: all 0.2s ease 0s;
 	text-decoration: underline;
-	color: #666666;
-	background-color: #CCFFFF;
+	color: orange;
 }
 
 section.content.sidebar a:hover {
@@ -162,19 +160,18 @@ a.primary {
 
 a.primary:hover {
 	transition: all 0.2s ease 0s;
-	background-color: #008877;
+	color: orange;
 }
 
 a.footer {
 	text-decoration: underline;
-	color: white;
+	color: 971200;
 }
 
 a.footer:hover {
 	transition: all 0.2s ease 0s;
 	text-decoration: underline;
-	color: white;
-	background-color: #008877;
+	color: orange;
 }
 
 a.footer.image {
@@ -183,7 +180,6 @@ a.footer.image {
 
 a.footer.image:hover {
 	text-decoration: none;
-	background-color: #006655;
 }
 
 img {
