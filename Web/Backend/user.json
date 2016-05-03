@@ -1,0 +1,54 @@
+{
+	"summoner name" : "_empty",
+	"password" : "_empty",
+	"roster" : [{
+			"champion" : "_empty",
+			"mastery" : "0",
+			"stats" : {
+				"1 game played" : "0",
+				"1 game won" : "0",
+				"3 game played" : "0",
+				"3 game won" : "0",
+				"5 game played" : "0",
+				"5 game won" : "0",
+				"marathons played" : "0",
+				"marathons won" : "0"
+			}
+		}
+	],
+	"series" : [{
+			"summoner name" : "_empty",
+			"champion" : "_empty",
+			"series length" : "0",
+			"my games played" : "0",
+			"their games played" : "0",
+			"my mastery" : "0",
+			"their mastery" : "0"
+		}
+	],
+	"pending" : {
+		"friend requests" : [
+			"_empty"
+		],
+		"battle requests" : [{
+				"summoner name" : "_empty",
+				"champion" : "_empty",
+				"mastery" : "0",
+				"series length" : "0"
+			}
+		]
+	},
+	"friends" : [
+		"_empty"
+	],
+	"achievements" : {
+		"series played" : "0",
+		"series won" : {
+			"1 game" : "0",
+			"3 game" : "0",
+			"5 game" : "0",
+			"marathon" : "0"
+		}
+		"best champion" : "_empty"
+	}
+};
