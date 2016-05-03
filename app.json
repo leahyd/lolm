@@ -1,0 +1,21 @@
+{
+  "name": "LoL Mastery Battle",
+  "description": "Riot 2016 API Challenge",
+  "repository": "https://github.com/leahyd/lolmb",
+  "logo": "/web/frontend/Images/icon-lotus.png",
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+	"lolmb",
+	"riot",
+	"api",
+	"challenge",
+	"2016",
+	"leahy",
+	"lol",
+	"mastery",
+	"battle"
+  ],
+  "image": "heroku/nodejs"
+}
