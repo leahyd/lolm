@@ -54,7 +54,7 @@ section.content.sidebar {
 	float: left;
 	
 	text-transform: uppercase;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 section.content.sidebar > p {
@@ -90,7 +90,7 @@ section.footer {
 /*--------------------------------------- Element Styles ---------------------------------------*/
 	
 h1 {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 5px;
 	font-size: 300%;
@@ -143,7 +143,7 @@ section.content.sidebar a:hover {
 }
 
 a.primary {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
 	color: white;
 	text-decoration: none;
