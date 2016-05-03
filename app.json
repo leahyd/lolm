@@ -1,21 +1,8 @@
 {
-  "name": "LoL Mastery Battle",
-  "description": "Riot 2016 API Challenge",
-  "repository": "https://github.com/leahyd/lolmb",
-  "logo": "/web/frontend/Images/icon-lotus.png",
-  "keywords": [
-    "node",
-    "heroku",
-    "express",
-	"lolmb",
-	"riot",
-	"api",
-	"challenge",
-	"2016",
-	"leahy",
-	"lol",
-	"mastery",
-	"battle"
-  ],
+  "name": "Node.js Getting Started",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs"
 }
